@@ -11,4 +11,11 @@ export class App {
 
      this.router = router;
   }
+  goBack() {
+    history.back();
+ }
+
+ goForward() {
+    history.forward();
+ }
 }
